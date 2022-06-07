@@ -1,2 +1,2 @@
-# dio-decolatech3-desafio01
-Desafio de Projeto sobre Git/GitHub 
+# Desafio de Projeto sobre Git/GitHub
+Repositório criado para desafio de projeto do Bootcamp Decola Tech 3 - DIO.
