@@ -1,0 +1,212 @@
+INTRODUÇÃO À PROGRAMAÇÃO E PENSAMENTO COMPUTACIONAL
+
+
+*** PENSAMENTO COMPUTACIONAL ***
+
+- 4 PILARES
+1. Decomposição: dividir um problema complexo em subproblemas
+    • Análise: processo de quebrar e determinar partes menores e gerenciáveis
+      + estudar/ explorar
+      + realizar exame detalhado
+      + decompor em elementos constituíntes
+    • Síntese: combinar os elementos recompondo o problema original
+      + processo de reconstrução
+      + fundir os elementos de forma coerente
+      + consiste em reunir elementos distintos em um único elemento
+    • Sequencial: dependência entre as tarefas (executadas em "fila")
+    • Paralelo: tarefas podem ser executadas concomitantemente (mais eficiência, menos tempo)
+OBS.: treinar de maneiras diferentes a forma de decompor o mesmo problema
+
+2. Reconhecimento de padrões: identificar padrões e tendências
+    • Abordagem
+      + Extração de características
+      + Classificação de dados
+    • Reconhecimento de Padrões
+      + Representação de atributos
+      + Conceito associado ao objeto
+      + Armazenar dados
+      + Regras de decisão
+
+3. Abstração: extrapolar o conceito do problema para uma forma generalista
+    • Abstrair - observar, um ou mais elementos, avaliando características e propriedades em separado
+    • Abstração - processo intelectual de isolamento de um objeto da realidade
+    • Generalizar - tornar-se geral, mais amplo, extensão
+
+4. Design de algoritmos: automatizar/ definir passo a passo a resolução do problema
+    • Instruções
+      + O que precisa ser feito
+      + Ordem de execução
+    • Construção do Algorítmo
+      + Compreender o problema
+      + Definir dados de entrada
+      + Definir processamento
+      + Definir dados de saída
+      + Utilizar um método de construção
+      + Teste e diagnóstico
+
+- PROCESSO CONTÍNUO
+  1. Testar
+  2. Analisar
+  3. Refinar (aperfeiçoar)
+
+- HABILIDADES COMPLEMENTARES
+  • Raciocínio lógico
+  • Aperfeiçoamento
+
+
+*** INTRODUÇÃO A LÓGICA DE PROGRAMAÇÃO ***
+- O QUE ÉLÓGICA?
+Forma de pensamento (raciocínio) estruturado que existe para resolver um problema (questão/desafio)
+
+- TÉCNICAS DE LÓGICA DE PROGRAMAÇÃO
+  • Técnica Linear (sequência de ações ordenadas que possuem dependência entre si)
+    + Execução sequenciada
+    + Recursos limitados
+    + Única dimensão
+  • Técnica Estruturada (diferente da técnica linear, na técnica estruturada existem variáveis e escolhas)
+    + Escrita
+    + Entendimento
+    + Validação
+    + Manutenção
+  • Técnica Modular (partes independentes que são controladas por um conjunto de regras)
+    + Dados de entrada
+    + Processo de transformação
+    + Dados de saída
+// Metas
+    => Simplificação
+    => Decompor o problema
+    => Verificação do módulo
+
+
+*** FUNDAMENTOS DE ALGORÍTMOS ***
+- TIPOLOGIAS
+  • Numérico
+    + Inteiros
+    + Reais
+  • Caractéres
+    + Número
+    + Letra
+    + Símbolo
+  • Lógicos
+    + Verdadeiro (1)
+        .verdadeiro, .v, .s
+    + Falso (0)
+        .falso, .f, .n
+
+- VARIÁVEIS (estrutura que receberá um tipo de dado: desconhecido, inconstante, mutável...)
+As informações são compostas por dois tipos de conteúdos: dados e instruções
+  • Regras
+    + Um ou mais caractéres
+    + Primeiro a letra, não número
+    + Sem espaços em branco
+    + Caractéres e números
+  • Papéis de uma variável
+    + Ação (modifica o estado do algorítmo ou programa)
+    + Controle (vigia, controla algum algorítmo ou programa)
+  • Constante: é uma representação fixa, inalterável, conhecida. Por exemplo: pi = 3,14
+
+- INSTRUÇÕES PRIMITIVAS
+  • Cálculos matemáticos (input)
+    + Variáveis
+    + Contantes
+  • Operadores
+    + Binário
+    + Unário
+
+- ESTRUTURAS CONDICIONAIS E OPERADORES
+  • Simples
+    + Condição => Operação
+  • Composta
+    + Condição => Exceção
+    + Condição => Operação
+  • Encadeada
+    + Condição => Condição => Exceção
+    + Condição => Condição => Operação
+    + Condição => Operação
+  • Operador lógico
+    + Verificação de V ou F
+    + AND, OR, NOT
+AND: condição 01 verdadeira e condição 02 falsa
+OR: condição 01 ou condição 02 são verdadeiras
+NOT: operador de negação, nega a condição verificada
+
+- ESTRUTURAS DE REPETIÇÃO (trecho de um programa: loop, controle de fluxo)
+  • Condições de parada
+    + Número de repetições pré-fixadas
+    + Condição a ser satisfeita
+
+- VETORES E MATRIZES
+  • Vetor: variável com tamanho pré-fixado
+  • Matriz: coleção de vetores, tabela organizada em linhas e colunas, onde a "m" representa o número de linhas e "n" o número de colunas
+** Vantagens: otimização de linhas, melhor legibilidade...
+
+- O QUE SÃO FUNÇÕES: é a conexão entre dois elementos. São blocos de instruções (código) que realizam tarefas específicas identificados por nomes e parâmetros
+  • Modulação do código
+
+- INSTRUÇÕES DE ENTRADA E SAÍDA
+  • Dados
+    + Banco de Dados
+    + Teclado
+    + Voz
+  • Processamento
+  • Resultado
+    + Saída programada: condicional ou incondicional
+    + Saída por interrupção
+    + Casos: bem sucedida, erro de sintaxe, erros de programação, problemas com a interface
+        ++ Tela de computador ou celular
+        ++ Salvar arquivo
+
+
+*** LINGUAGEM DE PROGRAMAÇÃO ***
+
+- INTRODUÇÃO À LINGUAGEM DE PROGRAMAÇÃO
+  • Toda evolução tecnológica começa com o hardware e depois o software
+  • Problemas de decisão
+    + Caracter lógico: sim ou não
+    + Ideia: pertencimento
+  • Problemas de busca
+    + Relacionamento binário
+    + Recorrente em teoria de grafos
+  • Problemas de otimização
+    + Objetivo: maximizar ou minimizar uma função
+
+- COMO UM COMPUNTADOR ENTENDE O PROGRAMA?
+  • Código Fonte
+    + Tradução
+        ++ Geração do Programa Objeto
+        ++ Execução do Programa Objeto
+    + Interpretação
+        ++ Programa fonte é executado diretamente
+
+- CARACTERÍSTICAS DE UM PROGRAMA
+  • Desenvolvimento de programas
+    + Legibilidade
+    + Redigibilidade
+    + Confiabilidade
+    + Custo (baixo custo)
+  • Outras características
+    + Atualizações
+    + Uso para IA
+    + Disponibilidade de ferramentas
+
+- ANÁLISES DE CÓDIGO
+  • Análise Léxica
+    + Particionar (elementos denominados tokens)
+    + Classificar (identificadores, palavras reservadas, números, strings)
+    + Eliminar (caracteres de espaços em branco, comentários)
+  • Análise Sintática: forma que define a estrutura da codificação para uma determinada linguagem de programação
+  • Análise Semântica: significado (ligado a lógica do programa)
+
+- PARADIGMAS DE PROGRAMAÇÃO
+Paradigma: forma de resolver um problema com regras específicas
+  • Orientação a objeto
+  • Procedural
+  • Funcional
+  • Estruturado
+  • Computação Distribuida
+  • Lógico
+
+
+*** PRIMEIRO CONTATO COM A PROGRAMAÇÃO ***
+- ALGORÍTMOS EM PORTUGOL 
+** https://portugol-webstudio.cubos.io/
